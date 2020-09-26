@@ -4,7 +4,8 @@ body {
   justify-content: center;
 }
 
-.main {
+.main__box {
+  width: 300px;
   margin: 0 auto;
 }
 
