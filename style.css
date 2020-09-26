@@ -33,6 +33,7 @@ body {
 .bt {
   width: 210px;
   height: 30px;
+  background-color: gray;
 }
 
 .top {
