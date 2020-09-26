@@ -1,5 +1,11 @@
 body {
   background-color: yellowgreen;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  margin: 0 auto;
 }
 
 .box {
