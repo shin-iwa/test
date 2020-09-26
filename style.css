@@ -1,3 +1,28 @@
 body {
   background-color: yellowgreen;
 }
+
+.box {
+  width: 200px;
+  height: 150px;
+  display: block;
+}
+
+.field {
+  width: 210px;
+  height: 30px;
+  margin: 0 0 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.area {
+  width: 200px;
+  height:150px;
+  margin: 0 0 10px;
+}
+
+.bt {
+  width: 210px;
+  height: 30px;
+}
