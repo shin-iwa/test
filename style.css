@@ -1,12 +1,27 @@
 body {
   background-color: yellowgreen;
+}
+
+header {
+  height: 50px;
+  width: 400px;
+  margin: 0 auto;
+}
+.main {
   display: flex;
-  justify-content: center;
+  width: 400px;
+  margin: 0 auto;
 }
 
 .main__box {
   width: 210px;
   margin: 0 auto;
+  background-color: white;
+}
+
+.side {
+  width: 100px;
+  background-color: pink;
 }
 
 .box {
