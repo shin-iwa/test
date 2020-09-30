@@ -4,3 +4,9 @@ console.log(name);
 console.log(`${name}さんは部長です！`);
 const animals = ["cat", "dog"];
 console.log(animals);
+
+const menus = ["caffee", "tea", "bread"];
+
+for(let i = 0; i < 3; i++) {
+  console.log(menus[i]);
+}
