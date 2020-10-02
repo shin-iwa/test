@@ -11,7 +11,7 @@ for(let i = 0; i < 3; i++) {
   console.log(menus[i]);
 }
 
-const numbers = [1, 2, 3, 4];
+const numbers = [1, 2, 3, 4, 5, 6];
 
 const evenNumbers = numbers.filter((number) =>{
   return number % 2 === 0;
