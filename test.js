@@ -18,3 +18,8 @@ const evenNumbers = numbers.filter((number) =>{
 });
 
 console.log(evenNumbers);
+
+const numbers = [1, 2, 3, 4];
+const doubledNumbers = numbers.map((number) => {
+  return number * 2;
+});
