@@ -23,3 +23,14 @@ const numbers = [1, 2, 3, 4];
 const doubledNumbers = numbers.map((number) => {
   return number * 2;
 });
+
+import React from 'react';
+class App extends React.Component {
+  render(){
+    <div>
+      <button>
+        Hello!
+      </button>
+    </div>
+  }
+}
