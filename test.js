@@ -1,36 +1,25 @@
-console.log("本日は晴天なり！");
-let name = "田中";
-console.log(name);
-console.log(`${name}さんは部長です！`);
-const animals = ["cat", "dog"];
-console.log(animals);
+'use strict';
 
-const menus = ["caffee", "tea", "bread"];
+const e = React.createElement;
 
-for(let i = 0; i < 3; i++) {
-  console.log(menus[i]);
-}
+class LikeButton extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { liked: false };
+  }
 
-const numbers = [1, 2, 3, 4, 5, 6];
+  render() {
+    if (this.state.liked) {
+      return 'You liked this.';
+    }
 
-const evenNumbers = numbers.filter((number) =>{
-  return number % 2 === 0;
-});
-
-console.log(evenNumbers);
-
-const numbers = [1, 2, 3, 4];
-const doubledNumbers = numbers.map((number) => {
-  return number * 2;
-});
-
-import React from 'react';
-class App extends React.Component {
-  render(){
-    <div>
-      <button>
-        Hello!
-      </button>
-    </div>
+    return e(
+      'button',
+      { onClick: () => this.setState({ liked: true }) },
+      'Like'
+    );
   }
 }
+
+const domContainer = document.querySelector('#like_button_container');
+ReactDOM.render(e(LikeButton), domContainer);
