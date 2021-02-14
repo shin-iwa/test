@@ -20,3 +20,48 @@ print(3 == 9/3)
 print(2 != 3)
 print("岩" == "岩")
 
+print(type("name"))
+print(type(name))
+
+b = 4.5
+print(type(b))
+
+complex = 3j
+print(type(complex)) 
+
+flg = True
+print(type(flg))
+
+c = [10, 20, 30]
+print(type(c))
+
+d = {}
+print(type(d))
+
+e = ()
+print(type(e))
+
+names = ['田中','鈴木','佐藤']
+print(names)
+print(type(names))
+
+print(names[0])
+
+print(names[1])
+
+scores = [50, 80, 60]
+print(scores)
+print(scores[0])
+print(scores[-1])
+print(scores[-2])
+print(scores[0:2])
+print(scores[0:])
+print(scores[:-1])
+
+scores.append(70)
+print(scores)
+scores.append(90)
+print(scores)
+
+scores.pop()
+print(scores)
