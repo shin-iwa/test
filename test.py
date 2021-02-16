@@ -49,22 +49,7 @@ print(names[0])
 
 print(names[1])
 
-scores = [50, 80, 60]
-print(scores)
-print(scores[0])
-print(scores[-1])
-print(scores[-2])
-print(scores[0:2])
-print(scores[0:])
-print(scores[:-1])
 
-scores.append(70)
-print(scores)
-scores.append(90)
-print(scores)
-
-scores.pop()
-print(scores)
 
 p = 5
 if p < 6:
