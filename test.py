@@ -65,3 +65,15 @@ print(scores)
 
 scores.pop()
 print(scores)
+
+p = 5
+if p < 6:
+    print("great!")
+
+money = 9000
+if money >= 8000:
+    print('ディズニーランドに行きます')
+elif money >= 2000:
+    print('映画館に行きます')    
+else:
+    print('映画館に行きません')
