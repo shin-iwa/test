@@ -27,7 +27,7 @@ is_start = s.startswith('x')
 print(is_start)
 
 print('###################')
-
+print('********************')
 print(s.find('Mike'))
 print(s.rfind('Mike'))
 print(s.count('Mike'))
