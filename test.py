@@ -77,3 +77,11 @@ elif money >= 2000:
     print('映画館に行きます')    
 else:
     print('映画館に行きません')
+
+
+print('#################')
+print("""
+line1
+line2
+line3
+""")
