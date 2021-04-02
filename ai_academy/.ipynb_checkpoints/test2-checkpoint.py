@@ -31,9 +31,3 @@ scores = [50, 80, 60]
 print(scores)
 print(scores[2])
 print(scores[-1])
-
-print(scores[0:2])
-print(scores[0:])
-print(scores[:-1])
-
-print(scores.append(70))
